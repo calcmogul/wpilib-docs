@@ -102,14 +102,14 @@ Follow the [WPILib style guide](https://github.com/wpilibsuite/styleguide/) for 
 When possible, instead of using code blocks, an RLI should be used.  This pulls code lines directly from GitHub, most commonly using the example programs.  This automatically keeps the code up to date with any changes that are made.  The format of an RLI is:
 
 ```ReST
-.. remoteliteralinclude:: https://raw.githubusercontent.com/wpilibsuite/allwpilib/v2027.0.0-alpha-7/wpilibjExamples/src/main/java/org/wpilib/examples/gettingstarted/Robot.java
+.. remoteliteralinclude:: https://raw.githubusercontent.com/wpilibsuite/allwpilib/v2027.0.0-alpha-8/wpilibjExamples/src/main/java/org/wpilib/examples/gettingstarted/Robot.java
    :language: java
    :lines: 18-24
    :lineno-match:
 
-.. remoteliteralinclude:: https://raw.githubusercontent.com/wpilibsuite/allwpilib/v2027.0.0-alpha-7/wpilibcExamples/src/main/cpp/examples/GettingStarted/cpp/Robot.cpp
+.. remoteliteralinclude:: https://raw.githubusercontent.com/wpilibsuite/allwpilib/v2027.0.0-alpha-8/wpilibcExamples/src/main/cpp/examples/GettingStarted/cpp/Robot.cpp
    :language: c++
-   :lines: 46-56
+   :lines: 44-54
    :lineno-match:
 
 .. remoteliteralinclude:: https://raw.githubusercontent.com/robotpy/mostrobotpy/2027.0.0a7/examples/robot/GettingStarted/robot.py
@@ -127,7 +127,7 @@ To create code tabs in an article, you can use the ``.. tab-set-code::`` directi
 
 ````ReST
 .. tab-set-code::
-   .. remoteliteralinclude:: https://raw.githubusercontent.com/wpilibsuite/allwpilib/v2027.0.0-alpha-7/wpilibjExamples/src/main/java/org/wpilib/examples/gettingstarted/Robot.java
+   .. remoteliteralinclude:: https://raw.githubusercontent.com/wpilibsuite/allwpilib/v2027.0.0-alpha-8/wpilibjExamples/src/main/java/org/wpilib/examples/gettingstarted/Robot.java
       :language: java
       :lines: 18-24
       :lineno-match:

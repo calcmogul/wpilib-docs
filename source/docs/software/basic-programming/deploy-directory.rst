@@ -22,13 +22,13 @@ Here are some common examples of how teams use the ``deploy`` directory:
 
 ### Accessing Deploy Files in Code
 
-To access files from the deploy directory in your robot code, use the ``Filesystem`` class ([Java](https://github.wpilib.org/allwpilib/docs/beta/java/org/wpilib/system/Filesystem.html), [C++](https://github.wpilib.org/allwpilib/docs/beta/cpp/_filesystem_8hpp.html)). The ``getDeployDirectory`` method returns the path to the deploy directory. This ensures that your code can locate the files regardless of whether the code is running on the Systemcore or in simulation on your computer.
+To access files from the deploy directory in your robot code, use the ``Filesystem`` class ([Java](https://github.wpilib.org/allwpilib/docs/beta/java/wpilib.core/org/wpilib/system/Filesystem.html), [C++](https://github.wpilib.org/allwpilib/docs/beta/cpp/_filesystem_8hpp.html)). The ``getDeployDirectory`` method returns the path to the deploy directory. This ensures that your code can locate the files regardless of whether the code is running on the Systemcore or in simulation on your computer.
 
 ## Deleting Unused Deploy Files
 
 By default the deploy directory in your project is transferred to the Systemcore when code is deployed.  It is initiated by this section of the ``build.gradle`` file.
 
-.. remoteliteralinclude:: https://raw.githubusercontent.com/wpilibsuite/vscode-wpilib/v2027.0.0-alpha-7/vscode-wpilib/resources/gradle/java/build.gradle
+.. remoteliteralinclude:: https://raw.githubusercontent.com/wpilibsuite/vscode-wpilib/v2027.0.0-alpha-8/vscode-wpilib/resources/gradle/java/build.gradle
    :language: groovy
    :lines: 38-44
    :lineno-match:
